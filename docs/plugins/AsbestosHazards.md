@@ -1,9 +1,11 @@
-# Asbestos Hazard
-Asbestos Hazard is a bespoke plugin that adds asbestos into the gain. 
+# AsbestosHazard
 
-## Obtaining asbestos
-There is a random chance of any block dropping asbestos when mined. 
+AsbestosHazard is a Paper plugin that adds asbestos drops when mining and applies negative effects to players who keep asbestos in their inventory.
 
-## Roadmap
-- [x] Add asbestos to the game
-- [ ] Modify the harm mechanic to only affect the player after holding asbestos for a while. 
+## Features
+
+- **Random asbestos drops**: Mining any block in survival mode has a small chance to drop asbestos.
+- **Hazardous inventory effects**: Holding asbestos applies slowness and poison until it is removed.
+
+## Commands
+`/asbestoschunk` will check if the current chunk contains asbestos
