@@ -1,5 +1,5 @@
 ---
-icon: lucide/microphone
+icon: lucide/mic
 ---
 
 # Voice chat

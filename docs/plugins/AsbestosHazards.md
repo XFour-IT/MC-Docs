@@ -1,4 +1,10 @@
+---
+icon: lucide/skull
+---
 # AsbestosHazard
+
+!!!warning
+    Asbestos Hazards is disabled.
 
 AsbestosHazard is a Paper plugin that adds asbestos drops when mining and applies negative effects to players who keep asbestos in their inventory.
 

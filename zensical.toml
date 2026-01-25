@@ -313,3 +313,7 @@ description = """
     find what they're searching for. With your consent, you're helping us to
     make our documentation better.
 """
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
