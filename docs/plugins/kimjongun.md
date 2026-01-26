@@ -13,10 +13,10 @@ This mod adds Kim Jong Un. He spawns randomly. When killed he may drop one of fo
 BWB
  F 
 ```
-- **N** = Thermonuclear Nose Cone
-- **B** = Thermonuclear Missile Body
-- **W** = Thermonuclear Warhead Core
-- **F** = Thermonuclear Missile Fins
+- **N** = Thermonuclear Nose Cone  
+- **B** = Thermonuclear Missile Body  
+- **W** = Thermonuclear Warhead Core  
+- **F** = Thermonuclear Missile Fins  
 
 ## Usage
 1. Defeat the themed mob to collect all four missile parts.
