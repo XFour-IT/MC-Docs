@@ -1,3 +1,6 @@
+---
+icon: lucide/rocket
+---
 # Kim Jong Un
 This mod adds Kim Jong Un. He spawns randomly. When killed he may drop one of four [missile parts](#crafting-recipe). 
 

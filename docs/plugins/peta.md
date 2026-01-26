@@ -1,3 +1,6 @@
+---
+icon: lucide/dog
+---
 # PETA Volunteers
 
 Spawns a PETA volunteer NPC when players kill animals. Volunteers walk slowly, shout shaming messages in chat, and flee when attacked before despawning.
