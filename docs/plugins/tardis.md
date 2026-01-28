@@ -1,5 +1,5 @@
 ---
-icon: fa-police-box
+icon: lucide/siren
 ---
 # TARDIS
 [TARDIS docs](https://tardis.pages.dev/)
