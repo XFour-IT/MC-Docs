@@ -7,9 +7,9 @@ icon: lucide/rocket
 - Collect the parts to craft an **Assembled Missile** and **Assembled Launchpad**.
 
 ## Crafting the Parts
-Use any crafting grid (shapeless):
-- **Assembled Missile** = missile nose + missile body + missile engine
-- **Assembled Launchpad** = launchpad base + launchpad control + launchpad support
+Use any crafting grid (shapeless):  
+- **Assembled Missile** = missile nose + missile body + missile engine  
+- **Assembled Launchpad** = launchpad base + launchpad control + launchpad support  
 
 ## Launching a Missile
 1. Hold the **Assembled Launchpad** and right-click a block to place it.
