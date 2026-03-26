@@ -1,10 +1,11 @@
-# 🌿 Green Party Dimension Plugin
+# <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 21 1.5 21 1.5c-5 6-6 13-9 18.5A7 7 0 0 1 11 20Z"/><path d="M2 21c0-3 6.5-1 6.5-1s.5-5.5-2-8.5c-3-3-7-1-10 5C-1.5 17 2 21 2 21Z"/></svg> Green Party Dimension Plugin
 
 A ridiculously themed Minecraft plugin that creates a custom dimension dedicated to the UK Green Party in over-the-top fashion. Players can be kidnapped into the dimension, complete eco-friendly quests, participate in council debates, and manage their environmental impact.
 
-**Version:** 1.4.3  
+**Version:** 1.4.4  
 **Server:** Paper 1.21.1 with Geyser support  
 **Author:** Jeeves
+**Status:** Fully feature-complete with all 4 phases implemented
 
 ## Installation
 
@@ -384,6 +385,6 @@ For issues, questions, or suggestions, contact the server admins or check `/gree
 ---
 
 **Last Updated:** 2026-03-26  
-**Plugin Version:** 1.4.3  
+**Plugin Version:** 1.4.4  
 **Phases Complete:** 1, 2, 3, 4 (✅ COMPLETE)
-**Latest Fixes:** Structure generation bug fixed, structure rebuild command added, yupBenji removed from default kidnap targets
+**Latest Fixes (v1.4.4):** Debate voting window for auto-triggered debates, structure entrance signs with proper text rendering, block rotation/direction corrections for stairs/doors/logs, NPC assignment to structures
