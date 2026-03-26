@@ -2,7 +2,7 @@
 
 A ridiculously themed Minecraft plugin that creates a custom dimension dedicated to the UK Green Party in over-the-top fashion. Players can be kidnapped into the dimension, complete eco-friendly quests, participate in council debates, and manage their environmental impact.
 
-**Version:** 1.3.0  
+**Version:** 1.4.1  
 **Server:** Paper 1.21.1 with Geyser support  
 **Author:** Jeeves
 
@@ -267,11 +267,92 @@ heckler:
     # ... more
 ```
 
+### Custom Structures
+
+Four landmark buildings auto-generate throughout the dimension:
+
+1. **Council Chamber** — Grand 19×19 hall with voting podium, seating arrangements, emerald accents, glowstone lighting
+2. **Compost Processing Plant** — Industrial stone brick factory with composters, hoppers, chimney stacks, pipe systems
+3. **Tree Farm** — Glass greenhouse with 6 sapling species, water irrigation channels, multi-level oak platforms
+4. **Recycling Centre** — Color-coded sorting facility with conveyor belt system, hopper chains, exterior barrels
+
+Commands:
+- `/structure list` — Show all structures
+- `/structure info <name>` — Details and location
+- `/structure rebuild <name>` — Admin command to rebuild a structure
+
+**Note:** Structures detect ground level dynamically, so they'll place correctly on uneven terrain.
+
+### Leaderboards
+
+Compete in 5 categories tracked on `/leaderboard <category>`:
+
+1. **Green Credits** — Most earned
+2. **Eco-Score** — Highest rating
+3. **Trees Planted** — Sapling count
+4. **Quests Completed** — Chain completion count
+5. **Violations** — Most violations (chaos leaderboard)
+
+**Monthly Rewards:**
+- 1st place: 100 GC + "[Green Champion]" cosmetic title
+- 2nd place: 50 GC + "[Eco Advocate]" cosmetic title
+- 3rd place: 25 GC + "[Green Supporter]" cosmetic title
+
+Leaderboards reset monthly with archiving.
+
+### Cosmetics System
+
+Unlock and equip cosmetics through achievements and progression:
+
+**Armor Sets (4 available)**
+- Green-dyed variants with custom names
+- Unlock by reaching 500+ eco-score
+
+**Particle Trails (5 available)**
+- Green dust, composter particles, leaf particles, aurora, glitter
+- Follow player movement
+- Unlock by completing 3+ quest chains
+
+**Chat Titles (6 available)**
+- "[Green Champion]", "[Eco Advocate]", "[Tree Guardian]", etc.
+- Display as chat prefix
+- Unlock by earning achievements and milestones
+
+Commands:
+- `/cosmetics list` — Show available cosmetics and unlock conditions
+- `/cosmetics equip <name>` — Apply a cosmetic
+- `/cosmetics unequip <name>` — Remove a cosmetic
+
+### Environmental Effects
+
+The dimension is alive with ambient effects (all configurable in `config.yml`):
+
+- **Leaf particle rain** — Green leaves falling periodically
+- **Composter sounds** — Ambient factory and decomposition noises
+- **Light shows** — Rotating particle effects at structure locations (bonfires, aurora)
+- **Time dilation** — In-game time passes at custom rate (default: 1x)
+- **Aurora borealis** — Colored particle light shows
+- **Planet Vitality boss bar** — Tracks dimension "health" (increases with eco-friendly actions)
+
+All effects are toggleable and customizable in config.
+
+### Player Stats & Progression
+
+View comprehensive player data with:
+- `/greenparty stats` — All-in-one dashboard showing credits, eco-score, quests, achievements, cosmetics
+- `/greenparty dimension-info` — Structure locations, active effects, current announcements
+- `/progress monthly` — Current month's leaderboard standings and rewards
+
+**Seasonal Bonuses:**
+- Earth Day (April 22): 2× Green Credits earned
+- World Environment Day (June 5): 1.5× Green Credits earned
+- Custom seasonal events (configurable in config.yml)
+
 ## Permissions
 
 - `greenparty.council` — Can propose motions (default: op)
 - `greenparty.violations.check` — Can check others' violations (default: op)
-- `greenparty.admin` — Admin commands like `/release` and `/greencredit give` (default: op)
+- `greenparty.admin` — Admin commands like `/release`, `/greencredit give`, `/structure rebuild` (default: op)
 
 ## Troubleshooting
 
@@ -302,5 +383,5 @@ For issues, questions, or suggestions, contact the server admins or check `/gree
 ---
 
 **Last Updated:** 2026-03-26  
-**Plugin Version:** 1.3.0  
-**Phases Complete:** 1, 2, 3
+**Plugin Version:** 1.4.1  
+**Phases Complete:** 1, 2, 3, 4 (✅ COMPLETE)
