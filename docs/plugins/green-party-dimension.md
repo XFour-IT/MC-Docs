@@ -2,7 +2,7 @@
 
 A ridiculously themed Minecraft plugin that creates a custom dimension dedicated to the UK Green Party in over-the-top fashion. Players can be kidnapped into the dimension, complete eco-friendly quests, participate in council debates, and manage their environmental impact.
 
-**Version:** 1.4.1  
+**Version:** 1.4.3  
 **Server:** Paper 1.21.1 with Geyser support  
 **Author:** Jeeves
 
@@ -279,9 +279,10 @@ Four landmark buildings auto-generate throughout the dimension:
 Commands:
 - `/structure list` — Show all structures
 - `/structure info <name>` — Details and location
-- `/structure rebuild <name>` — Admin command to rebuild a structure
+- `/structure rebuild <name>` — Admin command to rebuild a specific structure
+- `/structure rebuild-all` or `/structure regenerate` — Admin command to regenerate all 4 structures at once (useful for testing or resetting)
 
-**Note:** Structures detect ground level dynamically, so they'll place correctly on uneven terrain.
+**Note:** Structures detect ground level dynamically, so they'll place correctly on uneven terrain. Use `/structure rebuild-all` to regenerate without restarting the server.
 
 ### Leaderboards
 
@@ -383,5 +384,6 @@ For issues, questions, or suggestions, contact the server admins or check `/gree
 ---
 
 **Last Updated:** 2026-03-26  
-**Plugin Version:** 1.4.1  
+**Plugin Version:** 1.4.3  
 **Phases Complete:** 1, 2, 3, 4 (✅ COMPLETE)
+**Latest Fixes:** Structure generation bug fixed, structure rebuild command added, yupBenji removed from default kidnap targets
