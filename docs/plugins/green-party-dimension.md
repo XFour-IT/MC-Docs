@@ -1,4 +1,4 @@
-# Green Party Dimension Plugin
+# 🌿 Green Party Dimension Plugin
 
 A ridiculously themed Minecraft plugin that creates a custom dimension dedicated to the UK Green Party in over-the-top fashion. Players can be kidnapped into the dimension, complete eco-friendly quests, participate in council debates, and manage their environmental impact.
 
